@@ -41,7 +41,7 @@ int snc() {
 		tab[i][2] = outputV;
 	}
 
-	for (int k = 0; k < i; k++) {
+	/*for (int k = 0; k < i; k++) {
 		if (sqrt(pow(tab[k][0], 2) + pow(tab[k][1], 2)) > sqrt(pow(tab[k + 1][0], 2) + pow(tab[k + 1][1], 2))) {
 			max[0] = tab[k][0];
 			max[1] = tab[k][1];
@@ -55,7 +55,7 @@ int snc() {
 	for (int j = 0; j < i; j++) {
 		tab[j][0] = tab[j][0]/max[0];
 		tab[j][1] = tab[j][1]/max[1];
-	}
+	}*/
 
 	for (int j = 0; j < i; j++) {
 		net = tab[j][0]*weight[0] + tab[j][1]*weight[1];
